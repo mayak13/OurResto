@@ -1,0 +1,115 @@
+/*ajouter les font*/
+@font-face{
+    font-family: 'occupied';
+ src: url('../font/Occupied.otf') format('OpenType');
+}
+@font-face{
+    font-family: 'titre2';
+ src: url('../font/Blacklite DEMO.ttf') format('trueType');
+}
+/*general*/
+body{
+    color: rgb(0, 0, 0);
+    background-color: rgba(182, 156, 156, 0.486); 
+    font-family:"Occupied";
+}
+/*ciblé*/
+/*modifier la navbar*/
+.navbar-default{
+    background-color:rgba(202, 176, 176, 0.445);
+    border: none;
+}
+/*modifier les items de navigation*/
+.navbar-default .navbar-brand,.navbar-default .navbar-nav > li > a{
+    color: black;
+    font-weight: bold;
+}
+/*modifier les effets au survole des items de navigation*/
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-brand:hover{
+    color: white;
+    background-color: gray;
+}
+/*modifier les heading*/
+.heading{
+    color: #e9e3e3;
+    font-weight: bold;
+    text-align: center;
+    font-family: "titre2";
+    font-size:25px;
+}
+.heading > h1 ,.heading > a {
+    text-transform: uppercase;
+   
+}
+/*modifier le bouton*/
+.button1, #env{
+    font-size: 25px;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 50px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in 0s;
+}
+.button1{
+    color: rgb(255, 255, 255);
+}
+#env{
+    color: black;
+}
+/*modifier l'effet au survole du bouton*/
+.button1:hover, #env:hover{
+    background-color: white;
+    color:rosybrown;
+    text-decoration: none;
+}
+/*modification au niveau de la section about*/
+#about{
+    text-align: center;
+    background-image: url("../images/about2.jpg");
+    background-attachment: fixed;
+    height:700px;
+    padding-top: 200px;
+}
+/*modification sur le conteneur*/
+.container{
+    background-color: rgb(223, 132, 132);
+    width: 90%;
+    padding-bottom: 10px;
+}
+
+/*modifier l'article*/
+.col-sm-8 .text-justify{
+    font-weight: bold;
+    font-size: 18px; 
+}
+/*modification de la table*/
+.col-sm-4 >h3 {
+    margin-top: 0px;
+}
+/*modifier l'alignement de la vid*/
+.col-lg-12{
+    text-align: center;
+}
+#containGallery{
+    background-color: rgba(209, 87, 87, 0.849);
+    padding: 20px;
+}
+/*centrer le formulaire*/
+form{
+    text-align: center;
+}
+#commentaire{
+    margin-bottom: 5px;
+    padding-left: 15px;
+    background-color: rgba(209, 87, 87, 0.849);
+    border-radius:10px; 
+}
+/*modufication du footrer*/
+#footer-page{
+    background-color: rgba(209, 87, 87, 0.849);
+    height: 50px;
+    padding-top:18px;
+    font-size: 15;
+    font-weight: bold;
+}
